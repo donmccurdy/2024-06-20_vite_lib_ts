@@ -1,0 +1,20 @@
+{
+  "name": "2024-06-20_vite_lib_ts",
+  "version": "1.0.0",
+  "license": "BlueOak-1.0.0",
+  "type": "module",
+  "types": "./dist/mylib.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/mylib.d.ts",
+      "default": "./dist/mylib.js"
+    }
+  },
+  "devDependencies": {
+    "typescript": "^5.5.2",
+    "vite": "^5.3.1"
+  },
+  "scripts": {
+    "build": "vite build --config vite.config.ts"
+  }
+}
